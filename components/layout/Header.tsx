@@ -18,7 +18,7 @@ export function Header() {
           <span className="flex flex-col leading-tight">
             <span className="text-base font-semibold text-ink">Matiz</span>
             <span className="hidden text-xs text-ink-faint md:block">
-              Sistema de inferencia difusa
+              Sistema de inferencia difusa · Grupo 6 · UNMSM
             </span>
           </span>
         </Link>
