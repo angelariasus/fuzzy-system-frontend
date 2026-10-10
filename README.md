@@ -7,6 +7,7 @@
 [![TypeScript](https://img.shields.io/badge/TypeScript-5-1B4965?logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
 [![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-3-1B4965?logo=tailwindcss&logoColor=white)](https://tailwindcss.com/)
 [![Python Backend](https://img.shields.io/badge/Backend-Python_%2B_FastAPI-1B4965?logo=fastapi&logoColor=white)](https://github.com/engiegarcia/fuzzy-system-backend)
+[![License: MIT](https://img.shields.io/badge/License-MIT-1B4965.svg)](LICENSE)
 
 Web interface for a Mamdani fuzzy inference system that estimates the Energy-Saving Priority Index (IPA) for a household. The index ranges from 0 to 100 and is calculated from electricity demand, occupancy, and time of day.
 
@@ -152,3 +153,7 @@ The end-to-end suite uses mocked backend responses by default. To test against a
 ## Academic context
 
 Developed for the *Sistemas Inteligentes* course at Universidad Nacional Mayor de San Marcos (UNMSM).
+
+## License
+
+Distributed under the [MIT License](LICENSE).
