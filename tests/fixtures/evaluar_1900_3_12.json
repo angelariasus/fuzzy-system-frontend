@@ -1,0 +1,49 @@
+{
+  "id_evaluacion": null,
+  "entradas": {
+    "potencia_w": 1900,
+    "ocupantes": 3,
+    "hora": 12
+  },
+  "ipa": 34.83,
+  "interpretacion": "Baja",
+  "accion_sugerida": "Aplicar recomendaciones de uso eficiente",
+  "fuzzificacion": {
+    "potencia": {
+      "baja": 0.0,
+      "media": 0.8,
+      "alta": 0.2
+    },
+    "ocupantes": {
+      "sin_ocupantes": 0.0,
+      "pocas": 0.0,
+      "moderadas": 1.0,
+      "muchas": 0.0
+    },
+    "bloque": {
+      "base": 0.0,
+      "media": 1.0,
+      "punta": 0.0
+    }
+  },
+  "reglas_activadas": [
+    {
+      "regla": "R20",
+      "potencia": "Media",
+      "ocupantes": "Moderadas",
+      "bloque": "Media",
+      "salida": "Bajo",
+      "alpha": 0.8,
+      "calculo": "mín(0,8000; 1,0000; 1,0000)"
+    },
+    {
+      "regla": "R32",
+      "potencia": "Alta",
+      "ocupantes": "Moderadas",
+      "bloque": "Media",
+      "salida": "Medio",
+      "alpha": 0.2,
+      "calculo": "mín(0,2000; 1,0000; 1,0000)"
+    }
+  ]
+}

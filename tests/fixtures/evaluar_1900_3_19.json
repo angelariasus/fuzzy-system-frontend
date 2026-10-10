@@ -1,0 +1,49 @@
+{
+  "id_evaluacion": null,
+  "entradas": {
+    "potencia_w": 1900,
+    "ocupantes": 3,
+    "hora": 19
+  },
+  "ipa": 54.83,
+  "interpretacion": "Media",
+  "accion_sugerida": "Revisar cargas de uso no esencial",
+  "fuzzificacion": {
+    "potencia": {
+      "baja": 0.0,
+      "media": 0.8,
+      "alta": 0.2
+    },
+    "ocupantes": {
+      "sin_ocupantes": 0.0,
+      "pocas": 0.0,
+      "moderadas": 1.0,
+      "muchas": 0.0
+    },
+    "bloque": {
+      "base": 0.0,
+      "media": 0.0,
+      "punta": 1.0
+    }
+  },
+  "reglas_activadas": [
+    {
+      "regla": "R21",
+      "potencia": "Media",
+      "ocupantes": "Moderadas",
+      "bloque": "Punta",
+      "salida": "Medio",
+      "alpha": 0.8,
+      "calculo": "mín(0,8000; 1,0000; 1,0000)"
+    },
+    {
+      "regla": "R33",
+      "potencia": "Alta",
+      "ocupantes": "Moderadas",
+      "bloque": "Punta",
+      "salida": "Alto",
+      "alpha": 0.2,
+      "calculo": "mín(0,2000; 1,0000; 1,0000)"
+    }
+  ]
+}

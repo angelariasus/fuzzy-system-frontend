@@ -1,0 +1,290 @@
+[
+  {
+    "regla": "R1",
+    "potencia": "Baja",
+    "ocupantes": "Sin ocupantes",
+    "bloque": "Base",
+    "salida": "Bajo",
+    "calculo_ordinal": "0 + 1 + 0 = 1"
+  },
+  {
+    "regla": "R2",
+    "potencia": "Baja",
+    "ocupantes": "Sin ocupantes",
+    "bloque": "Media",
+    "salida": "Bajo",
+    "calculo_ordinal": "0 + 1 + 0 = 1"
+  },
+  {
+    "regla": "R3",
+    "potencia": "Baja",
+    "ocupantes": "Sin ocupantes",
+    "bloque": "Punta",
+    "salida": "Medio",
+    "calculo_ordinal": "0 + 1 + 1 = 2"
+  },
+  {
+    "regla": "R4",
+    "potencia": "Baja",
+    "ocupantes": "Pocas",
+    "bloque": "Base",
+    "salida": "Muy bajo",
+    "calculo_ordinal": "0 + 0 + 0 = 0"
+  },
+  {
+    "regla": "R5",
+    "potencia": "Baja",
+    "ocupantes": "Pocas",
+    "bloque": "Media",
+    "salida": "Muy bajo",
+    "calculo_ordinal": "0 + 0 + 0 = 0"
+  },
+  {
+    "regla": "R6",
+    "potencia": "Baja",
+    "ocupantes": "Pocas",
+    "bloque": "Punta",
+    "salida": "Bajo",
+    "calculo_ordinal": "0 + 0 + 1 = 1"
+  },
+  {
+    "regla": "R7",
+    "potencia": "Baja",
+    "ocupantes": "Moderadas",
+    "bloque": "Base",
+    "salida": "Muy bajo",
+    "calculo_ordinal": "0 + 0 + 0 = 0"
+  },
+  {
+    "regla": "R8",
+    "potencia": "Baja",
+    "ocupantes": "Moderadas",
+    "bloque": "Media",
+    "salida": "Muy bajo",
+    "calculo_ordinal": "0 + 0 + 0 = 0"
+  },
+  {
+    "regla": "R9",
+    "potencia": "Baja",
+    "ocupantes": "Moderadas",
+    "bloque": "Punta",
+    "salida": "Bajo",
+    "calculo_ordinal": "0 + 0 + 1 = 1"
+  },
+  {
+    "regla": "R10",
+    "potencia": "Baja",
+    "ocupantes": "Muchas",
+    "bloque": "Base",
+    "salida": "Muy bajo",
+    "calculo_ordinal": "0 + 0 + 0 = 0"
+  },
+  {
+    "regla": "R11",
+    "potencia": "Baja",
+    "ocupantes": "Muchas",
+    "bloque": "Media",
+    "salida": "Muy bajo",
+    "calculo_ordinal": "0 + 0 + 0 = 0"
+  },
+  {
+    "regla": "R12",
+    "potencia": "Baja",
+    "ocupantes": "Muchas",
+    "bloque": "Punta",
+    "salida": "Bajo",
+    "calculo_ordinal": "0 + 0 + 1 = 1"
+  },
+  {
+    "regla": "R13",
+    "potencia": "Media",
+    "ocupantes": "Sin ocupantes",
+    "bloque": "Base",
+    "salida": "Medio",
+    "calculo_ordinal": "1 + 1 + 0 = 2"
+  },
+  {
+    "regla": "R14",
+    "potencia": "Media",
+    "ocupantes": "Sin ocupantes",
+    "bloque": "Media",
+    "salida": "Medio",
+    "calculo_ordinal": "1 + 1 + 0 = 2"
+  },
+  {
+    "regla": "R15",
+    "potencia": "Media",
+    "ocupantes": "Sin ocupantes",
+    "bloque": "Punta",
+    "salida": "Alto",
+    "calculo_ordinal": "1 + 1 + 1 = 3"
+  },
+  {
+    "regla": "R16",
+    "potencia": "Media",
+    "ocupantes": "Pocas",
+    "bloque": "Base",
+    "salida": "Bajo",
+    "calculo_ordinal": "1 + 0 + 0 = 1"
+  },
+  {
+    "regla": "R17",
+    "potencia": "Media",
+    "ocupantes": "Pocas",
+    "bloque": "Media",
+    "salida": "Bajo",
+    "calculo_ordinal": "1 + 0 + 0 = 1"
+  },
+  {
+    "regla": "R18",
+    "potencia": "Media",
+    "ocupantes": "Pocas",
+    "bloque": "Punta",
+    "salida": "Medio",
+    "calculo_ordinal": "1 + 0 + 1 = 2"
+  },
+  {
+    "regla": "R19",
+    "potencia": "Media",
+    "ocupantes": "Moderadas",
+    "bloque": "Base",
+    "salida": "Bajo",
+    "calculo_ordinal": "1 + 0 + 0 = 1"
+  },
+  {
+    "regla": "R20",
+    "potencia": "Media",
+    "ocupantes": "Moderadas",
+    "bloque": "Media",
+    "salida": "Bajo",
+    "calculo_ordinal": "1 + 0 + 0 = 1"
+  },
+  {
+    "regla": "R21",
+    "potencia": "Media",
+    "ocupantes": "Moderadas",
+    "bloque": "Punta",
+    "salida": "Medio",
+    "calculo_ordinal": "1 + 0 + 1 = 2"
+  },
+  {
+    "regla": "R22",
+    "potencia": "Media",
+    "ocupantes": "Muchas",
+    "bloque": "Base",
+    "salida": "Bajo",
+    "calculo_ordinal": "1 + 0 + 0 = 1"
+  },
+  {
+    "regla": "R23",
+    "potencia": "Media",
+    "ocupantes": "Muchas",
+    "bloque": "Media",
+    "salida": "Bajo",
+    "calculo_ordinal": "1 + 0 + 0 = 1"
+  },
+  {
+    "regla": "R24",
+    "potencia": "Media",
+    "ocupantes": "Muchas",
+    "bloque": "Punta",
+    "salida": "Medio",
+    "calculo_ordinal": "1 + 0 + 1 = 2"
+  },
+  {
+    "regla": "R25",
+    "potencia": "Alta",
+    "ocupantes": "Sin ocupantes",
+    "bloque": "Base",
+    "salida": "Alto",
+    "calculo_ordinal": "2 + 1 + 0 = 3"
+  },
+  {
+    "regla": "R26",
+    "potencia": "Alta",
+    "ocupantes": "Sin ocupantes",
+    "bloque": "Media",
+    "salida": "Alto",
+    "calculo_ordinal": "2 + 1 + 0 = 3"
+  },
+  {
+    "regla": "R27",
+    "potencia": "Alta",
+    "ocupantes": "Sin ocupantes",
+    "bloque": "Punta",
+    "salida": "Muy alto",
+    "calculo_ordinal": "2 + 1 + 1 = 4"
+  },
+  {
+    "regla": "R28",
+    "potencia": "Alta",
+    "ocupantes": "Pocas",
+    "bloque": "Base",
+    "salida": "Medio",
+    "calculo_ordinal": "2 + 0 + 0 = 2"
+  },
+  {
+    "regla": "R29",
+    "potencia": "Alta",
+    "ocupantes": "Pocas",
+    "bloque": "Media",
+    "salida": "Medio",
+    "calculo_ordinal": "2 + 0 + 0 = 2"
+  },
+  {
+    "regla": "R30",
+    "potencia": "Alta",
+    "ocupantes": "Pocas",
+    "bloque": "Punta",
+    "salida": "Alto",
+    "calculo_ordinal": "2 + 0 + 1 = 3"
+  },
+  {
+    "regla": "R31",
+    "potencia": "Alta",
+    "ocupantes": "Moderadas",
+    "bloque": "Base",
+    "salida": "Medio",
+    "calculo_ordinal": "2 + 0 + 0 = 2"
+  },
+  {
+    "regla": "R32",
+    "potencia": "Alta",
+    "ocupantes": "Moderadas",
+    "bloque": "Media",
+    "salida": "Medio",
+    "calculo_ordinal": "2 + 0 + 0 = 2"
+  },
+  {
+    "regla": "R33",
+    "potencia": "Alta",
+    "ocupantes": "Moderadas",
+    "bloque": "Punta",
+    "salida": "Alto",
+    "calculo_ordinal": "2 + 0 + 1 = 3"
+  },
+  {
+    "regla": "R34",
+    "potencia": "Alta",
+    "ocupantes": "Muchas",
+    "bloque": "Base",
+    "salida": "Medio",
+    "calculo_ordinal": "2 + 0 + 0 = 2"
+  },
+  {
+    "regla": "R35",
+    "potencia": "Alta",
+    "ocupantes": "Muchas",
+    "bloque": "Media",
+    "salida": "Medio",
+    "calculo_ordinal": "2 + 0 + 0 = 2"
+  },
+  {
+    "regla": "R36",
+    "potencia": "Alta",
+    "ocupantes": "Muchas",
+    "bloque": "Punta",
+    "salida": "Alto",
+    "calculo_ordinal": "2 + 0 + 1 = 3"
+  }
+]

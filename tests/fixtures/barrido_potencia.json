@@ -1,0 +1,64 @@
+{
+  "variable": "potencia_w",
+  "fijos": {
+    "ocupantes": 3,
+    "hora": 12
+  },
+  "puntos": [
+    {
+      "valor": 0,
+      "ipa": 10.83,
+      "interpretacion": "Muy baja"
+    },
+    {
+      "valor": 500,
+      "ipa": 10.83,
+      "interpretacion": "Muy baja"
+    },
+    {
+      "valor": 1000,
+      "ipa": 22.59,
+      "interpretacion": "Baja"
+    },
+    {
+      "valor": 1500,
+      "ipa": 30.0,
+      "interpretacion": "Baja"
+    },
+    {
+      "valor": 2000,
+      "ipa": 35.79,
+      "interpretacion": "Baja"
+    },
+    {
+      "valor": 2500,
+      "ipa": 40.0,
+      "interpretacion": "Media"
+    },
+    {
+      "valor": 3000,
+      "ipa": 44.21,
+      "interpretacion": "Media"
+    },
+    {
+      "valor": 3500,
+      "ipa": 50.0,
+      "interpretacion": "Media"
+    },
+    {
+      "valor": 4000,
+      "ipa": 50.0,
+      "interpretacion": "Media"
+    },
+    {
+      "valor": 4500,
+      "ipa": 50.0,
+      "interpretacion": "Media"
+    },
+    {
+      "valor": 5000,
+      "ipa": 50.0,
+      "interpretacion": "Media"
+    }
+  ]
+}

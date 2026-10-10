@@ -1,0 +1,40 @@
+{
+  "id_evaluacion": null,
+  "entradas": {
+    "potencia_w": 300,
+    "ocupantes": 4,
+    "hora": 12
+  },
+  "ipa": 10.83,
+  "interpretacion": "Muy baja",
+  "accion_sugerida": "Mantener el uso actual",
+  "fuzzificacion": {
+    "potencia": {
+      "baja": 1.0,
+      "media": 0.0,
+      "alta": 0.0
+    },
+    "ocupantes": {
+      "sin_ocupantes": 0.0,
+      "pocas": 0.0,
+      "moderadas": 1.0,
+      "muchas": 0.0
+    },
+    "bloque": {
+      "base": 0.0,
+      "media": 1.0,
+      "punta": 0.0
+    }
+  },
+  "reglas_activadas": [
+    {
+      "regla": "R8",
+      "potencia": "Baja",
+      "ocupantes": "Moderadas",
+      "bloque": "Media",
+      "salida": "Muy bajo",
+      "alpha": 1.0,
+      "calculo": "mín(1,0000; 1,0000; 1,0000)"
+    }
+  ]
+}
