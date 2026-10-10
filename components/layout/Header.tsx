@@ -3,6 +3,7 @@
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 import { Marca } from '@/components/icons/Marca';
+import { GitHub } from '@/components/icons/glifos';
 import { NAVEGACION } from '@/lib/constants';
 import { cn } from '@/lib/cn';
 import { ThemeToggle } from './ThemeToggle';
@@ -17,7 +18,7 @@ export function Header() {
           <span className="flex flex-col leading-tight">
             <span className="text-base font-semibold text-ink">Matiz</span>
             <span className="hidden text-xs text-ink-faint md:block">
-              Sistema de inferencia difusa · Grupo 6 · UNMSM
+              Sistema de inferencia difusa
             </span>
           </span>
         </Link>
@@ -41,6 +42,16 @@ export function Header() {
           })}
         </nav>
         <div className="ml-auto flex items-center gap-3 lg:ml-0">
+          <a
+            href="https://github.com/angelariasus/fuzzy-system-frontend"
+            target="_blank"
+            rel="noreferrer"
+            aria-label="Abrir repositorio en GitHub"
+            title="Repositorio en GitHub"
+            className="inline-flex h-9 w-9 items-center justify-center rounded-md text-ink-muted transition-colors duration-150 ease-salida hover:bg-surface-sunken hover:text-ink"
+          >
+            <GitHub />
+          </a>
           <ThemeToggle />
         </div>
       </div>
