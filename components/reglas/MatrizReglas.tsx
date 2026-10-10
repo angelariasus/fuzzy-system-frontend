@@ -64,24 +64,24 @@ export function MatrizReglas({ reglas, activadas, resaltada }: Props) {
                 return (
                   <td key={bloque} className="p-0">
                     <Tooltip contenido={<span className="num">{`rP + rO + rH = ${regla.calculo_ordinal}`}</span>} className="w-full">
-                      <div
+                      <button
+                        type="button"
                         id={`regla-${regla.regla}`}
-                        tabIndex={0}
                         className={cn(
-                          'w-full rounded-md border bg-surface/80 px-2 py-1.5 transition-colors duration-150 hover:border-border-strong',
+                          'w-full rounded-md border bg-surface/80 px-2 py-1.5 text-left transition-colors duration-150 hover:border-border-strong',
                           activa || marcada ? 'border-accent ring-1 ring-accent' : 'border-border',
                         )}
                       >
-                        <div className="flex items-center justify-between gap-2">
+                        <span className="flex items-center justify-between gap-2">
                           <span className="num text-xs text-ink-muted">{regla.regla}</span>
                           <Badge nivel={NIVEL_POR_SALIDA[regla.salida] ?? 1}>{regla.salida}</Badge>
-                        </div>
+                        </span>
                         {activa ? (
-                          <p className="mt-1 text-xs text-ink-muted">
+                          <span className="mt-1 block text-xs text-ink-muted">
                             Grado de activación <span className="num text-ink">{formatGrado(alpha)}</span>
-                          </p>
+                          </span>
                         ) : null}
-                      </div>
+                      </button>
                     </Tooltip>
                   </td>
                 );

@@ -107,6 +107,7 @@ export function GrupoTiles<V extends string>({
       ref={contenedor}
       role="radiogroup"
       aria-label={etiqueta}
+      tabIndex={-1}
       onKeyDown={alTeclear}
       className={cn('grid gap-2', className)}
     >
